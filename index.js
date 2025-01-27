@@ -17,7 +17,7 @@ function describeTemperature(f) {
   } else {
     description = "very hot";
   }
-  return `${f}°F is ${c}°C. That is ${description}.`;
+  return `${f}F is ${c}C. That is ${description}.`;
 }
 
 const f = prompt("Please enter a temperature in Fahrenheit");
